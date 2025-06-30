@@ -2,10 +2,11 @@
   "name": "pgats-ci-trabalho-final",
   "version": "1.0.0",
   "description": "",
-  "type": "module", 
+  "type": "module",
   "main": "trabalho.js",
   "scripts": {
-     "test": "mocha test/*.js"
+    "test": "mocha test/*.js",                   
+    "test:report": "mocha test/*.js --reporter mochawesome"   
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/nathandantas-qa/pgats-ci-trabalho-final#readme",
   "devDependencies": {
-    "mocha": "^11.7.1"
+    "mocha": "^11.7.1",
+    "mochawesome": "^7.1.3"
   }
 }
