@@ -1,0 +1,24 @@
+{
+  "name": "pgats-ci-trabalho-final",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module", 
+  "main": "trabalho.js",
+  "scripts": {
+     "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathandantas-qa/pgats-ci-trabalho-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathandantas-qa/pgats-ci-trabalho-final/issues"
+  },
+  "homepage": "https://github.com/nathandantas-qa/pgats-ci-trabalho-final#readme",
+  "devDependencies": {
+    "mocha": "^11.7.1"
+  }
+}
