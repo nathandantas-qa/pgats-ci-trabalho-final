@@ -1,6 +1,6 @@
 # CI de Nível 01 - Execução manual via botão
 
-name: 'CI - Execução Manual de Testes Unitários'
+name: 'CI - Execução Manual com Relatório'
 
 # Gatilho manual (workflow_dispatch)
 on:
